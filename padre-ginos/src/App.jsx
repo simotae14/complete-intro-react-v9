@@ -8,19 +8,22 @@ const App = () => {
       <Pizza
         name="The Pepperoni Pizza"
         description="Mozzarella Cheese, Pepperoni"
+        image={"/public/pizzas/pepperoni.webp"}
       />
       <Pizza
         name="Americano Pizza"
         description="French fries and and hot dogs, wtf Italy"
+        image={"/public/pizzas/big_meat.webp"}
       />
-      <Pizza name="The Hawaiian" description="pineapple and ham, wtf America" />
+      <Pizza
+        name="The Hawaiian"
+        description="pineapple and ham, wtf America"
+        image={"/public/pizzas/hawaiian.webp"}
+      />
       <Pizza
         name="Chicken Pizza?"
         description="chicken nuggies on your Pizza, wtf UK"
-      />
-      <Pizza
-        name="Baked Potato Pizza"
-        description="unholy potato mash, wtf Minnesota"
+        image={"/public/pizzas/ckn_alfredo.webp"}
       />
     </div>
   );
