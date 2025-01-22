@@ -10,7 +10,10 @@ export default function Header() {
         <h1 className="logo">Padre Gino's Pizza</h1>
       </Link>
       <div className="nav-cart">
-        🛒<div className="nav-cart-number">{cart.length}</div>
+        🛒
+        <div className="nav-cart-number" data-testid="cart-number">
+          {cart.length}
+        </div>
       </div>
     </nav>
   );
